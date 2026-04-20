@@ -25,3 +25,52 @@ README.md - This file, providing project overview and setup instructions.
 **Problem 4: Deutsch's Algorithm with Qiskit** - Quantum circuit that determines function type with 1 test vs 2 classical tests, showing quantum advantage.
 
 **Problem 5: Deutsch-Jozsa Algorithm** - Scales to 4-bit functions, needs 1 quantum test vs 9 classical tests. 
+
+## Project Setup
+
+**Clone the repository:**
+```bash
+git clone https://github.com/JohnsonMununkum/emerging-technologies.git
+cd emerging-technologies
+```
+
+**Install Python 3.8 or higher if needed.**
+
+**Install the required packages:**
+```bash
+pip install -r requirements.txt
+```
+
+Try this if pip is giving errors:
+```bash
+python -m pip install -r requirements.txt
+```
+
+**Run Jupyter Notebook from the project directory:**
+```bash
+jupyter notebook
+```
+
+**Open problems.ipynb and run the cells.** The notebook is designed to run smoothly with all imports at the top. Use **Kernel → Restart & Run All** to execute all cells in sequence.
+
+## Key Results
+
+- Implemented random Boolean function generator for 4-bit functions
+- Classical algorithm needs up to 9 tests for 4-bit functions
+- Implemented 4 quantum oracles for Deutsch's algorithm
+- Deutsch's algorithm uses 1 test instead of 2 classical tests
+- Deutsch-Jozsa algorithm uses 1 test instead of 9 classical tests
+
+## Technologies Used
+
+- **Qiskit** - Quantum computing framework for circuit design and simulation
+- **NumPy** - Numerical and array operations
+- **Matplotlib** - Visualization of quantum circuits and results
+
+## Documentation
+
+- All imports are at the beginning of the notebook
+- Markdown cells explain each problem with formulas and concepts
+- Code cells are commented and organized for readability
+- Each problem has Solution, Operations, and References sections
+
