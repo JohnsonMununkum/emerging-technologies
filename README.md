@@ -1,4 +1,7 @@
-# Emerging Technologies Assignment
+# Emerging Technologies Assessment
+
+**Student:** Johnson Mununkum  
+**Student ID:** G00419319
 
 ## Overview
 
@@ -73,4 +76,13 @@ jupyter notebook
 - Markdown cells explain each problem with formulas and concepts
 - Code cells are commented and organized for readability
 - Each problem has Solution, Operations, and References sections
+
+## References
+
+- IBM Quantum Learning - Deutsch's Algorithm: https://quantum.cloud.ibm.com/learning/en/courses/fundamentals-of-quantum-algorithms/quantum-query-algorithms/deutsch-algorithm
+- IBM Quantum Learning - Deutsch-Jozsa Algorithm: https://quantum.cloud.ibm.com/learning/en/modules/computer-science/deutsch-jozsa
+- Qiskit Documentation: https://docs.quantum.ibm.com/api/qiskit/circuit
+- Nielsen & Chuang, "Quantum Computation and Quantum Information", Sections 1.4.2-1.4.4
+
+This README allows anyone viewing or using my repository to clearly understand the setup, execution, and structure behind my work.
 
